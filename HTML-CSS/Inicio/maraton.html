@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Maraton</title>
+    <h1>Race Registration</h1>
+</head>
+
+<body>
+    <form action="/maraton_registration">
+        <div>
+            <label for="frstnm">First Name</label>
+            <input type="text" name="frstnm" id="frstnm" placeholder="First Name" minlength="1" required>
+            <label for="lstnm">Last Name</label>
+            <input type="text" name="lstnm" id="lstnm" placeholder="Last Name" minlength="1" required>
+        </div>
+        <p> <label for="race">Select Race</label></p>
+        <div>
+            <input type="radio" value="5k" name="race" id="fun_run">
+            <label for="fun_run">Fun Run 5k</label><br>
+            <input type="radio" value="half" name="race" id="half_marat">
+            <label for="half_marat">Half Maraton</label><br>
+            <input type="radio" value="full" name="race" id="full_marat">
+            <label for="full_marat">Full Maraton</label><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="E-Mail" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="password" required><br>
+
+
+            <label for="age">Select Age Group</label>
+            <select name="age" id="age">
+                <option value="18-30">18-30</option>
+                <option value="31-50">31-50</option>
+                <option value="51-up">51-up</option>
+            </select>
+
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

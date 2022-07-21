@@ -1,0 +1,30 @@
+h1{
+    font-size: 40px;
+    border: 2px solid black;
+    line-height: 200%;
+}
+section{
+    background-color: paleturquoise;
+    width: 500px;
+    height: 500px;
+}
+
+div{
+    background-color: papayawhip;
+    width: 50%;
+    height: 50%;
+}
+h2{
+    font-size: 2em;
+    /*em hace que el font sea X veces el tama~o de su mardre
+    ej. 2em es el doble de px, 3em esel triple de px...etc.*/
+    margin: 1em;
+    /*em hace que el margen sea x cantidad del font de arriba(no de la madre)*/
+}
+article{
+    font-size: 15px;
+}
+ul{
+    font-size: 1.5rem;
+    
+}

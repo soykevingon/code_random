@@ -1,0 +1,40 @@
+h1{
+    margin: 0px;
+}
+body{
+    background-color: lightgray;
+}
+div{
+    width: 200px;
+    height: 200px;
+}
+#one{
+    padding-left: 100px;
+background-color: darkturquoise;
+border-width: 5px;
+border-color: blue;
+border-style: solid;
+box-sizing: border-box;
+margin: 10px;
+}
+#two{
+background-color: gainsboro;
+border-width: 2px;
+border-color:gray;
+border-style: solid;
+box-sizing: border-box;
+border-top-width: 5px;
+border-top-color: black;
+
+}
+#three{
+    padding:25px;
+background-color: gray;
+border: 5px solid black;
+border-radius: 10%;
+}
+
+button{
+    padding:20px;
+    /* padding: 5px 1px 0 2px; 'Top right botton left*/
+}

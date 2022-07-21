@@ -1,0 +1,27 @@
+div{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline wavy black;
+}
+#hola3 {
+    color:blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+button{
+    color:darkgrey;
+    background-color: black;
+}
+
+button:hover{
+    color:black;
+    background-color: darkgrey;
+}
+#boton{
+    color: blue;
+    background-color: darkorchid;
+}
+.prueba button{
+    color:darkorchid;
+}
